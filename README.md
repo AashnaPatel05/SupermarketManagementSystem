@@ -14,7 +14,7 @@ Project Files:-
 
 How to Run the Program:
 
-- First, install Java JDK, Netbeans from Appaanywhere. Open the and run whole project.
+- First, install Java JDK, Netbeans from Appaanywhere. Open and run whole project.
 Added Features:
 
 Add and delete products: 
