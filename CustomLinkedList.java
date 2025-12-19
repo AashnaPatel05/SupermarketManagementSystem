@@ -28,10 +28,6 @@ public class CustomLinkedList<T> {
     //Maximum number of elements allowed in the list (4 for activity tracking)
     private final int maxSize;
             
-    private void removelast() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-    
     /**
      * Static inner class representing individual nodes in the linked list.
      * Each node contains the data element and a reference to the next node.
@@ -102,9 +98,7 @@ private static class Node<T> {
        
        // CRITICAL REQIREMENT: Maintain only the last maxSize elements
        // If we have exceeded the maximum capacity, remove the oldest element
-       if (size > maxSize) {
-           removelast();  // Remove the oldest element (last node)
-       }
+       
    }
    
    /**
